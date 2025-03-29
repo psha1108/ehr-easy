@@ -1,22 +1,19 @@
 
 import { ReactNode } from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+import SidebarLayout from "./SidebarLayout";
 
 interface PageContainerProps {
   children: ReactNode;
+  className?: string;
 }
 
-const PageContainer = ({ children }: PageContainerProps) => {
+const PageContainer = ({ children, className = "" }: PageContainerProps) => {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-background to-background/80">
-      <div className="absolute inset-0 bg-grid-medical-100/30 bg-fixed pointer-events-none" />
-      <Header />
-      <main className="flex-1 relative z-10">
+    <SidebarLayout>
+      <div className={`min-h-[calc(100vh-4rem)] bg-background ${className}`}>
         {children}
-      </main>
-      <Footer />
-    </div>
+      </div>
+    </SidebarLayout>
   );
 };
 
