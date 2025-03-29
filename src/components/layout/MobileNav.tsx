@@ -61,9 +61,9 @@ const MobileNav = () => {
     <div className="flex flex-col gap-4 p-4">
       <Link to="/" className="flex items-center gap-2 mb-6">
         <div className="h-8 w-8 rounded-md bg-gradient-to-br from-medical-400 to-medical-600 flex items-center justify-center text-white font-bold">
-          E
+          M
         </div>
-        <span className="font-semibold text-xl">EHR-Easy</span>
+        <span className="font-semibold text-xl">MEDI CAREPRO</span>
       </Link>
       
       <nav className="flex flex-col gap-2">

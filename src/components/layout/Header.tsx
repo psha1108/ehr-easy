@@ -57,9 +57,9 @@ const Header = () => {
           
           <Link to="/" className="flex items-center gap-2">
             <div className="h-7 w-7 rounded-md bg-gradient-to-br from-medical-400 to-medical-600 flex items-center justify-center text-white font-bold">
-              E
+              M
             </div>
-            <span className="font-semibold text-lg md:text-xl">EHR-Easy</span>
+            <span className="font-semibold text-lg md:text-xl">MEDI CAREPRO</span>
           </Link>
         </div>
 

@@ -9,9 +9,9 @@ const Footer = () => {
           <div className="flex flex-col gap-2">
             <Link to="/" className="flex items-center gap-2">
               <div className="h-7 w-7 rounded-md bg-gradient-to-br from-medical-400 to-medical-600 flex items-center justify-center text-white font-bold">
-                E
+                M
               </div>
-              <span className="font-semibold text-lg">EHR-Easy</span>
+              <span className="font-semibold text-lg">MEDI CAREPRO</span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-sm">
               Making student healthcare management easy, accessible, and secure.
@@ -81,7 +81,7 @@ const Footer = () => {
         
         <div className="mt-8 border-t pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} EHR-Easy. All rights reserved.
+            © {new Date().getFullYear()} MEDI CAREPRO. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Link to="#" className="text-muted-foreground hover:text-foreground">
